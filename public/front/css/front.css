@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* style="background-color: #e2703a;" */
+}
+.displaystyle {
+  width: 50% !important;
+  margin: 15px auto;
+}
+
+.carousel-indicators {
+  background: none !important;
+}
+.c1 {
+  border-radius: 15px !important;
+}
+.card-img-top {
+  height: 150px;
+  border-radius: 15px !important;
+}
+.c1-text {
+  font-size: 15px;
+  min-height: 40px;
+}
+.titles {
+  text-transform: uppercase;
+}
+.whytopups {
+  background-color: #fff;
+}
+.news_img_div {
+  width: 50%;
+}
+.paymentpage {
+  width: 90%;
+  margin: auto;
+}
+.form_div {
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.form-group {
+  width: 90%;
+  margin: auto;
+}
+.inputlable {
+  font-size: 20px;
+}
+.form-input {
+  width: 30% !important;
+  height: 50px !important;
+}
+.form_no {
+  width: 45px;
+  height: 45px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background-color: #e2703a;
+  position: relative;
+  bottom: 20px;
+}
+.diamonds_div {
+  min-height: 50px !important;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.payment_div {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.inputfield {
+  background-color: #fff !important;
+  border: none !important;
+}
+.inputfield {
+  height: 50px !important;
+}
+.paytmImg {
+  width: 40%;
+}
+.title_text {
+  display: block;
+}
+.footer {
+  background-color: #f4f4f4;
+}
+.footer p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.footer-social-div {
+  background-color: #fff;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .displaystyle {
+    width: 90% !important;
+    margin: 15px auto;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .displaystyle {
+    width: 90% !important;
+  }
+  .card-img-top {
+    height: 120px;
+  }
+  .titles {
+    font-size: 20px;
+  }
+  .news_img_div {
+    width: 100%;
+    color: #fff;
+    background-color: #e2703a;
+  }
+  .paytmImg {
+    width: 100%;
+  }
+  .form-input {
+    width: 75% !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .displaystyle {
+    width: 90% !important;
+    margin: 15px auto;
+  }
+  .card-img-top {
+    height: 100px;
+  }
+  .news_img_div {
+    width: 100%;
+  }
+  .paytmImg {
+    width: 100%;
+  }
+  .form-input {
+    width: 75% !important;
+  }
+}
